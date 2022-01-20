@@ -4,7 +4,7 @@ metadata:
  name: myonlineapp-deploy
  labels:
    app: myonlineapp
- spec: 
+spec: 
   replicas: 3
   selector:
     matchLabels:
